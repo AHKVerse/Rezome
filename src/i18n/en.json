@@ -1,0 +1,167 @@
+{
+  "nav": {
+    "home": "Home",
+    "skills": "Skills",
+    "achievements": "Achievements",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "hero": {
+    "subtitle": "AI Developer",
+    "title": "Hi, I'm",
+    "name": "Amirhossein Keramati",
+    "description": "AI Developer. Focused on Machine Learning, Deep Learning, and AI Agents.",
+    "contactBtn": "Contact Me",
+    "skillsBtn": "View Skills",
+    "scrollText": "Scroll to explore"
+  },
+  "skills": {
+    "title": "Expertise",
+    "heading": "Technical",
+    "highlight": "Skills",
+    "description": "A set of technical skills developed through years of continuous learning and hands on experience.",
+    "categories": {
+      "ml_dl": "Machine Learning & Deep Learning",
+      "nlp_llm": "NLP & Large Language Models",
+      "computer_vision": "Computer Vision & Image Processing",
+      "programming": "Programming & Development Tools",
+      "web_backend": "Web Development (Basic)",
+      "hardware_iot": "Hardware (Basic)"
+    },
+   "skills": {
+      "machine_learning": "Machine Learning",
+      "deep_learning": "Deep Learning",
+      "reinforcement_learning": "Reinforcement Learning",
+      "generative_ai": "RNN",
+      "neural_networks": "CNN",
+      "tensorflow": "TensorFlow",
+      "pytorch": "PyTorch",
+      "keras": "Keras",
+      "scikit_learn": "Scikit-learn",
+      "model_training": "Model Training ",
+      "nlp": "NLP",
+      "n8n": "n8n",
+      "transformers": "Transformers",
+      "llms": "LLM",
+      "fine_tuning": "Fine-tuning",
+      "embeddings": "Embeddings",
+      "prompt_engineering": "Prompt Engineering",
+      "rag": "RAG",
+      "langchain": "LangChain",
+      "ai_agents": "AI Agents",
+      "hugging_face": "Hugging Face ",
+      "computer_vision": "Computer Vision",
+      "opencv": "OpenCV",
+      "yolo": "YOLO",
+      "object_detection": "Object Detection",
+      "image_segmentation": "Image Segmentation",
+      "image_classification": "Image Classification",
+      "vision_model_training": "Vision Model Training",
+      "python": "Python",
+      "cpp": "C++",
+      "csharp": "C#",
+      "algorithm_design": "Algorithm Design",
+      "software_development": "Software Development Fundamentals",
+      "git": "Git & Version Control",
+      "linux": "Linux",
+      "jupyter": "Jupyter Notebook",
+      "vscode": "VS Code",
+      "django": "Django",
+      "fastapi": "FastAPI",
+      "react": "React",
+      "html_css": "HTML / CSS",
+      "bootstrap": "Bootstrap",
+      "rest_api": "REST API",
+      "mysql": "MySQL",
+      "postgresql": "PostgreSQL",
+      "embedded_systems": "Embedded Systems Development",
+      "arduino": "Arduino",
+      "raspberry": "Raspberry Pi",
+      "esp32": "ESP32",
+      "micropython": "MicroPython",
+      "electronics": "Electronics Design",
+      "iot": "IOT"
+    }
+  },
+  "achievements": {
+    "title": "Achievements & Events",
+    "heading": "Key",
+    "highlight": "Achievements",
+    "items": {
+  "award2_year": "2025-2026",
+  "award2_title": "⭐️ Only Student Team",
+  "award2_desc": "Participated in the Salman Technology Festival as the only student team among university and professional teams. This achievement reflects a high level of technical ability at a young age.",
+  "award1_year": "2025-2026",
+  "award1_title": "🏅 Hamtatech Exhibition First Place",
+  "award1_desc": "Our team achieved first place at the Hamtatech Exhibition (the first exhibition of SAMPAD Amir Kabir students' achievements) with 11 projects.",
+  "award3_year": "2024-2025",
+  "award3_title": "🥇 National Third Place",
+  "award3_desc": "Third place in the National Autonomous Car Competition of Iran Research Centers in 2024 to 2025. Developed advanced PID control algorithm and color path image processing. I was responsible for algorithm design, programming, and full system implementation.",
+  "award4_year": "2024-2025",
+  "award4_title": "🎓 SAMPAD Technical High School Student",
+  "award4_desc": "Student at SAMPAD Amir Kabir Technical High School, one of the country's most prestigious technical schools, while working on real world artificial intelligence projects.",
+  "award5_year": "2023-2024",
+  "award5_title": "🥇 Provincial First Place",
+  "award5_desc": "First place in the Khwarizmi Youth Festival provincial stage in the applied software development category. Designed a Windows based educational language learning application called 'Kalame Dan' using Python and a CustomTkinter interface."
+    
+}
+  },
+  "about": {
+    "title": "About Me",
+    "heading": "Passionate About",
+    "highlight": "Innovation",
+    "paragraphs": [
+      "I am an AI developer and AI agents enthusiast. My journey started with electronics and Arduino, and later evolved toward  artificial intelligence.",
+      "Currently, I focus on developing AI solutions. My main work areas include AI agents, natural language processing, and language model based systems. My activity is mainly centered on designing and implementing intelligent software solutions.",
+      "Alongside programming, I participated in the national autonomous car competition and achieved third place. I have also been actively involved in technology exhibitions."
+    ],
+    "stats": {
+      "experience": "Years Experience",
+      "projects": "Projects Completed",
+      "awards": "National/Provincial Awards",
+      "techs": "Technologies"
+    }
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "heading": "Let's",
+    "highlight": "Connect",
+    "description": "Have a project in mind or want to collaborate? I'd love to hear from you. Drop me a message and let's create something amazing together.",
+    "form": {
+      "name": "Name",
+      "namePlaceholder": "Your name",
+      "email": "Email",
+      "emailPlaceholder": "Your email",
+      "message": "Message",
+      "messagePlaceholder": "Tell me about your project...",
+      "send": "Send Message",
+      "sending": "Sending...",
+      "sent": "Message Sent!"
+    },
+    "info": {
+      "title": "Contact Information",
+      "email": "Email",
+      "phone": "Phone",
+      "github": "GitHub",
+      "linkedin": "LinkedIn"
+    },
+    "availability": {
+      "title": "Available for work",
+      "text": "Currently open to freelance projects, full-time opportunities, and collaborations. Response time: within 24 hours."
+    }
+  },
+  "footer": {
+    "tagline": "Building the future with AI .",
+    "copyright": "All rights reserved."
+  },
+  "profile": {
+    "role": "AI Developer"
+  },
+  "badges": {
+    "ai_ml": "AI/ML",
+    "embedded": "Embedded"
+  },
+  "language": {
+    "switch": "Change Language"
+  }
+}
