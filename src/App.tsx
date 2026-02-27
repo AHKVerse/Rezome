@@ -234,7 +234,7 @@ const HeroSection = () => {
               <div className="relative w-80 h-80 md:w-[28rem] md:h-[28rem] glass-strong rounded-3xl p-2 animate-border-glow">
                 <div className="w-full h-full rounded-2xl overflow-hidden bg-gradient-to-br from-[#00d4aa]/20 to-[#00a884]/20 flex items-center justify-center">
                   <div className="text-center">
-                    <img src="/profile.jpg" alt={t('hero.name')} className="w-56 h-56 md:w-80 md:h-80 mx-auto mb-4 rounded-full object-cover border-4 border-[#00d4aa] ring-4 ring-[#00d4aa]/30" onError={(e) => { e.currentTarget.style.display = 'none'; const fallback = e.currentTarget.nextElementSibling as HTMLElement; if (fallback) fallback.style.display = 'flex'; }} />
+                    <img src="/profile.webp" alt={t('hero.name')} className="w-56 h-56 md:w-80 md:h-80 mx-auto mb-4 rounded-full object-cover border-4 border-[#00d4aa] ring-4 ring-[#00d4aa]/30" onError={(e) => { e.currentTarget.style.display = 'none'; const fallback = e.currentTarget.nextElementSibling as HTMLElement; if (fallback) fallback.style.display = 'flex'; }} />
                     <div className="w-56 h-56 md:w-80 md:h-80 mx-auto mb-4 rounded-full bg-gradient-to-br from-[#00d4aa] to-[#00a884] flex items-center justify-center glow-green" style={{ display: 'none' }}><Code2 className="w-28 h-28 md:w-40 md:h-40 text-black" /></div>
                     <p className="text-[#00d4aa] font-semibold">{t('profile.role')}</p>
                   </div>
@@ -379,7 +379,7 @@ const AboutSection = () => {
                 <div className="absolute inset-4 rounded-full glass-strong overflow-hidden glow-border">
                   <div className="w-full h-full bg-gradient-to-br from-[#00d4aa]/20 to-[#00a884]/20 flex items-center justify-center p-4">
                     <div className="text-center">
-                      <img src="/profile.jpg" alt={t('hero.name')} className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-3 rounded-full object-cover border-4 border-[#00d4aa] ring-4 ring-[#00d4aa]/30" onError={(e) => { e.currentTarget.style.display = 'none'; const fallback = e.currentTarget.nextElementSibling as HTMLElement; if (fallback) fallback.style.display = 'flex'; }} />
+                      <img src="/profile.webp" alt={t('hero.name')} className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-3 rounded-full object-cover border-4 border-[#00d4aa] ring-4 ring-[#00d4aa]/30" onError={(e) => { e.currentTarget.style.display = 'none'; const fallback = e.currentTarget.nextElementSibling as HTMLElement; if (fallback) fallback.style.display = 'flex'; }} />
                       <div className="w-40 h-40 md:w-48 md:h-48 mx-auto mb-3 rounded-full bg-gradient-to-br from-[#00d4aa] to-[#00a884] flex items-center justify-center glow-green" style={{ display: 'none' }}><Code2 className="w-20 h-20 md:w-24 md:h-24 text-black" /></div>
                       <p className="text-[#00d4aa] font-semibold">{t('hero.name')}</p>
                       <p className="text-gray-400 text-xs">{t('profile.role')}</p>
