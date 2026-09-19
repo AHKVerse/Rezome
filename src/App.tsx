@@ -310,6 +310,9 @@ const AchievementsSection = () => {
   const { t } = useTranslation();
   const [ref, inView] = useInView({ threshold: 0.1, triggerOnce: true });
   const achievements = [
+    { year: t('achievements.items.collaboration2_year'), title: t('achievements.items.collaboration2_title'), description: t('achievements.items.collaboration2_desc'), icon: CircuitBoard },
+    { year: t('achievements.items.fira_year'), title: t('achievements.items.fira_title'), description: t('achievements.items.fira_desc'), icon: Bot },
+    { year: t('achievements.items.collaboration1_year'), title: t('achievements.items.collaboration1_title'), description: t('achievements.items.collaboration1_desc'), icon: Globe },
     { year: t('achievements.items.award1_year'), title: t('achievements.items.award1_title'), description: t('achievements.items.award1_desc'), icon: Award },
     { year: t('achievements.items.award2_year'), title: t('achievements.items.award2_title'), description: t('achievements.items.award2_desc'), icon: CircuitBoard },
     { year: t('achievements.items.award3_year'), title: t('achievements.items.award3_title'), description: t('achievements.items.award3_desc'), icon: Bot },
@@ -326,7 +329,7 @@ const AchievementsSection = () => {
         </motion.div>
         <div className="space-y-4">
           {achievements.map((achievement, index) => (
-            <motion.div key={achievement.year} initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: index * 0.1 }} className="flex items-start gap-4 md:gap-6">
+            <motion.div key={`${achievement.year}-${achievement.title}`} initial={{ opacity: 0, y: 20 }} animate={inView ? { opacity: 1, y: 0 } : {}} transition={{ duration: 0.5, delay: index * 0.1 }} className="flex items-start gap-4 md:gap-6">
               <div className="w-12 h-12 md:w-14 md:h-14 rounded-2xl bg-[#00d4aa]/10 flex items-center justify-center shrink-0 glow-green">
                 <achievement.icon className="w-6 h-6 md:w-7 md:h-7 text-[#00d4aa]" />
               </div>

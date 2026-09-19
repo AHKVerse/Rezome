@@ -102,7 +102,16 @@
   "award4_desc": "Student at SAMPAD Amir Kabir Technical High School, one of the country's most prestigious technical schools, while working on real world artificial intelligence projects.",
   "award5_year": "2023-2024",
   "award5_title": "🥇 Provincial First Place",
-  "award5_desc": "First place in the Khwarizmi Youth Festival provincial stage in the applied software development category. Designed a Windows based educational language learning application called 'Kalame Dan' using Python and a CustomTkinter interface."
+  "award5_desc": "First place in the Khwarizmi Youth Festival provincial stage in the applied software development category. Designed a Windows based educational language learning application called 'Kalame Dan' using Python and a CustomTkinter interface.",
+  "collaboration1_year": "2026-2027",
+  "collaboration1_title": "🤝 Academic Collaboration & Hamavard Technical Team",
+  "collaboration1_desc": "Collaborating with the Faculty of Sport Sciences at Ferdowsi University of Mashhad and contributing as a member of Hamavard's technical team, with a focus on technology-driven projects and solutions in sports.",
+  "fira_year": "2026-2027",
+  "fira_title": "🥉 National Third Place at FIRA",
+  "fira_desc": "Competed in the national FIRA competitions across two leagues—autonomous vehicles and sumo combat robots—and achieved third place nationally.",
+  "collaboration2_year": "2026-2027",
+  "collaboration2_title": "⚙️ JAXJOX Redesign & Hooshman Product Development",
+  "collaboration2_desc": "Collaborated with Technodo on redesigning and overhauling JAXJOX, a smart home-gym system. This collaboration led to the creation of a new product named Hooshman."
     
 }
   },
